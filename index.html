@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Honk&family=Kolker+Brush&family=Merriweather+Sans:wght@500&family=Merriweather:ital,wght@1,700&family=Noto+Sans:wght@900&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="toggleFormButton">Pokaż Formularz</button>
+    
+    <div id="formContainer" class="form-container">
+        <h1>Ankieta</h1>
+        <hr>
+        <form id="myForm">
+            <label for="name" class="przesuniecie">Imię:</label><br>
+            <input type="text"class="przesuniecie" id="name" name="name"><br>
+            <label class="przesuniecie" for="surname">Nazwisko:</label><br>
+            <input class="przesuniecie" type="text" id="surname" name="surname"><br>
+            <label class="przesuniecie" for="age">Wiek:</label><br>
+            <input class="przesuniecie" type="number" id="age" name="age"><br>
+            <label class="przesuniecie" for="email">Adres e-mail:</label><br>
+            <input class="przesuniecie" type="email" id="email" name="email"><br>
+            <label class="przesuniecie" for="password">Hasło:</label><br>
+            <input class="przesuniecie" type="password" id="password" name="password"><br>
+            <label class="przesuniecie" for="address">Adres zamieszkania:</label><br>
+            <input class="przesuniecie" type="text" id="address" name="address"><br>
+            <label class="przesuniecie" for="postalCode">Kod pocztowy:</label><br>
+            <input class="przesuniecie" type="text" id="postalCode" name="postalCode"><br>
+            <hr><br>
+            <input class="przesuniecie" id="kolor" type="submit" value="Submit">
+            <input class="przesuniecie" id="kolor" type="reset" value="Reset">
+            <input class="przesuniecie" id="kolor" type="button" value="Check" onclick="checkForm()"> 
+            <button  class="closeFormButton">✕</button>
+        </form>
+        
+    </div>
+
+    <script src="skrypt.js"></script>
+</body>
+</html>

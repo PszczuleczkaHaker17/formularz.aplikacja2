@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Honk', system-ui;
+    font-size: 2.5vh;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+
+}
+
+
+hr{
+    border: none; /* Usunięcie domyślnego stylu obramowania */
+    border-bottom: 2px solid white;
+}
+
+#kolor{
+    color: #f56320 ;
+    box-shadow: 0px 4px 4px   black ;
+    width: 12vh;
+    height: 4vh;
+    font-family: 'Honk', system-ui;
+    padding-bottom: 2vh;
+    font-size: 2.5vh;
+    text-align: center;
+
+}
+.form-container {
+    display: none;
+    width: 70vh; /* Zwiększamy szerokość formularza */
+    height: 68vh;
+    padding: 6vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    margin: 20px; /* Dodatkowy margines na zewnątrz formularza */
+    background-color: #202124;
+}
+
+input{
+    background-color: #6b6d74;
+    width: 20vh;
+    height: 2vh;
+}
+
+#toggleFormButton{
+    background-color: #6b6d74;
+    font-family: 'Honk', system-ui;
+    width: 20vh;
+    height: 4vh;
+    font-size: 2vh;
+}
+
+.error-icon,
+.valid-icon {
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.error-icon {
+    color: red;
+}
+
+.valid-icon {
+    color: green;
+}
+.closeFormButton{
+    float: right;
+    box-shadow: 0px 4px 4px   black;
+    width: 3vh;
+    height: 3vh;
+  background-color: #6b6d74;
+  font-weight: bold;
+}
+h1 {
+
+    text-align: center; /* Wyśrodkowanie tekstu h1 */
+    font-size: 6vh;
+}
+.przesuniecie{
+    margin-left: 1.4vh;
+}
